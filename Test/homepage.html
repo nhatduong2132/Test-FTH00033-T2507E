@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NetFilm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <a href="homepage.html">
+            <div class="logo">◎</div>
+        </a>
+        <span>NetFilm</span>
+      </div>
+      <div class="nav-links">
+        <a href="about.html">About Us</a>
+        <a href="movies.html">Movies</a>
+        <a href="favorites.html">Favorites</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Enter some keywords" />
+        <span class="icon">⌕</span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <!-- SIDEBAR -->
+    <aside class="filters">
+      <h4>Genre</h4>
+      <div class="group">
+        <div class="check"><input type="checkbox" id="action"><label for="action">Action</label></div>
+        <div class="check"><input type="checkbox" id="adventure"><label for="adventure">Adventure</label></div>
+        <div class="check"><input type="checkbox" id="romance"><label for="romance">Romance</label></div>
+        <div class="check"><input type="checkbox" id="documentary"><label for="documentary">Documentary</label></div>
+        <div class="check"><input type="checkbox" id="war"><label for="war">War</label></div>
+      </div>
+
+      <h4>Other</h4>
+      <div class="group">
+        <div class="check"><input type="checkbox" id="sport"><label for="sport">Sport</label></div>
+        <div class="check"><input type="checkbox" id="musical"><label for="musical">Musical</label></div>
+        <div class="check"><input type="checkbox" id="family"><label for="family">Family</label></div>
+      </div>
+    </aside>
+
+    <!-- CONTENT -->
+    <section class="content">
+      <article class="feature">
+        <h2>The Post</h2>
+        <div class="video">
+          <!-- Thay ID video nếu muốn -->
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nrXlY6gzTTM"
+                  title="The Post" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+        </div>
+        <p>
+            The Post is a 2017 American <u>political thriller</u> film about 
+            <u>The Washington Post</u> and the publication of the <u>Pentagon Papers</u>. 
+            It was directed and produced by <u>Steven Spielberg</u>, and written by 
+            <u>Liz Hannah</u> and <u>Josh Singer</u>. It stars <u>Meryl Streep</u> as 
+            <u>Katharine Graham</u>, the publisher of the Washington Post, and <u>Tom Hanks</u> 
+            as <u>Ben Bradlee</u>, the longtime executive editor of The Washington Post, with 
+            <u>Sarah Paulson</u>, <u>Bob Odenkirk</u>, <u>Tracy Letts</u>, <u>Bradley Whitford</u>, 
+            <u>David Cross</u>, <u>Bruce Greenwood</u>, <u>Carrie Coon</u>, <u>Alison Brie</u>, 
+            and <u>Matthew Rhys</u> in supporting roles.
+            </p>
+
+            <p>
+            Set in 1971, The Post depicts the true story of attempts by journalists at 
+            The Washington Post to publish the infamous Pentagon Papers, a set of classified 
+            documents regarding the 20-year involvement of the <u>United States</u> government 
+            in the <u>Vietnam War</u> and earlier in <u>French Indochina</u> back to the 1940s.
+        </p>
+
+      </article>
+
+      <section class="grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <img class="thumb" src="images/the-post.jpeg" alt="The Post">
+          <div class="meta">
+            <div class="title">The Post</div>
+            <div class="stars">★ ★ ★ </div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img class="thumb" src="images/god-father.jpeg" alt="The Godfather">
+          <div class="meta">
+            <div class="title">The Godfather</div>
+            <div class="stars">★ ★ ★ </div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img class="thumb" src="images/titanic.jpeg" alt="Titanic">
+          <div class="meta">
+            <div class="title">Titanic</div>
+            <div class="stars">★ ★ ★ </div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <img class="thumb" src="images/lion.jpeg" alt="Lions">
+          <div class="meta">
+            <div class="title">Lions</div>
+            <div class="stars">★ ★ ★</div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+          <img class="thumb" src="images/avatar.jpg" alt="Avatar">
+          <div class="meta">
+            <div class="title">Avatar</div>
+            <div class="stars">★ ★ ★ </div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+          <img class="thumb" src="images/parasite.jpeg" alt="Parasite">
+          <div class="meta">
+            <div class="title">Parasite</div>
+            <div class="stars">★ ★ ★ </div>
+            <div class="actions">
+              <button class="btn">Details</button>
+              <button class="btn">Add</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-inner">
+      <div class="bead"></div>
+      <span>Blue Entertainment</span>
+    </div>
+  </footer>
+  <footer class="site-footer">
+  <div class="footer-wrap">
+    <!-- Brand + blurb -->
+    <section class="f-brand">
+      <div class="f-logo">◎</div>
+      <h3>NetFilm</h3>
+      <p class="f-blurb">
+        Discover movies you’ll actually love. Curated picks, clean UI, and fast performance —
+        spend less time scrolling and more time watching.
+      </p>
+
+      <div class="f-social">
+        <a aria-label="Facebook" href="#">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5 3.66 9.15 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34V22c4.78-.78 8.44-4.93 8.44-9.93z"/></svg>
+        </a>
+        <a aria-label="Instagram" href="#">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5a5.5 5.5 0 1 1 0 11.001 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7.001 3.5 3.5 0 0 0 0-7zM18 6.5a1 1 0 1 1 0 2.001 1 1 0 0 1 0-2z"/></svg>
+        </a>
+        <a aria-label="YouTube" href="#">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8zM9.75 15.5V8.5L15.5 12l-5.75 3.5z"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Browse -->
+    <section class="f-col">
+      <h4>Browse</h4>
+      <ul>
+        <li><a href="#">New & Trending</a></li>
+        <li><a href="#">Top Rated</a></li>
+        <li><a href="#">Classics</a></li>
+        <li><a href="#">Documentaries</a></li>
+        <li><a href="#">International</a></li>
+      </ul>
+    </section>
+
+    <!-- Genres -->
+    <section class="f-col">
+      <h4>Genres</h4>
+      <ul>
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Drama</a></li>
+        <li><a href="#">Romance</a></li>
+        <li><a href="#">Sci-Fi</a></li>
+        <li><a href="#">Animation</a></li>
+      </ul>
+    </section>
+
+    <!-- Support -->
+    <section class="f-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Account & Billing</a></li>
+        <li><a href="#">Devices</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="f-news">
+      <h4>Newsletter</h4>
+      <p>Get weekly picks & updates. No spam, unsubscribe anytime.</p>
+      <form class="f-form" action="#" method="post" onsubmit="return false;">
+        <input type="email" placeholder="Your email address" aria-label="Email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <small class="f-note">By subscribing you agree to our <a href="#">Privacy Policy</a>.</small>
+    </section>
+  </div>
+
+  <div class="f-bottom">
+    <div class="f-bottom-inner">
+      <span>© <span id="year"></span> NetFilm</span>
+      <nav class="f-legal">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Sitemap</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // cập nhật năm tự động (không bắt buộc)
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
